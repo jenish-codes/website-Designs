@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta</title>
+    <link rel="icon" href="./images/logo.jpg">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+
+<!-- navbar -->
+    <div id="nav" >
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+               <div class="navbar-header">
+                    <a href="#" class="navbar-brand" style="display: flex;" ><span style="align-self: center;"><img src="./images/logo.jpg" alt="logo" style="width: 40px;"></span> <span style="font-size: 16pt; font-weight: bolder; padding-left: 10px;"> Meta</span></a>
+                </div>
+                <ul class="nav navbar-nav" style="float: right; padding-right: 10vw;">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+<!-- login -->
+
+<div class="login">
+   
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn1 btn-success btn-sm" data-toggle="modal" data-target="#myModal">Login</button>
+  
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title login-h4">Login</h4>
+          </div>
+          <div class="modal-body modalform">
+            <div class="modal-form-1">
+                <form action="#">
+                    <div class="form-body">
+                        <div>
+                            <div class="form-group">
+                                <label for="">Email </label>
+                                <input type="email" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password</label>
+                                <input type="password" class="form-control" id="psw">
+                            </div>
+                            
+                        </div>
+                        <button type="submit" class="btn btn-default btn11">Login</button>
+                    </div>
+                </form>
+                <div class="forgot">
+                    <small><a href="#" >Forget your Password?</a></small>
+                </div>
+            </div>
+
+
+
+
+          </div>
+          <div class="modal-footer">
+              <div class="signup">
+                  <p>Don't have an Account <span><a href="./pages/signup.html" target="_blank"> Sign Up</a></span></p>
+              </div>
+            <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+
+
+<!-- image slider -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+        <div class="item active">
+            <img src="./images/header-1.jpg" alt="+" style="width:100%; height: 50vh; object-fit: cover;">
+        </div>
+
+        <div class="item">
+            <img src="./images/header-2.jpg" alt="+" style="width:100%; height: 50vh; object-fit: cover;">
+        </div>
+        
+        <div class="item">
+            <img src="./images/header-3.jpg" alt="+" style="width:100%; height: 50vh; object-fit: cover;">
+        </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+
+<!-- body -->
+<div class="intro">
+
+<h1>Meta</h1>
+<p>
+    Meta is an one stop solution for all your online needs focused on brand development. We offer solutions, with a view to promote and establish your business into a brand. We entertain an infinite realm of imagination that articulates into creative solutions.</p>
+
+</div>
+
+
+<!-- about -->
+    <div id="about" class="about">
+        <div class="about-flex">
+            <div class="about-heading">
+                <h4>About</h4>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                        <a href="#" target="_blank">
+                            <img src="./images/workplace.jpg" style="width:100%">
+                            <!-- <div class="caption">
+                            
+                            </div> -->
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <p style="font-size: 16pt; font-weight: bolder; padding-top: 83px; color: white;">What we do?</p>
+                        <p style="font-size: 12pt; color: white; ">Meta is an exclusive company with a vested focus into Brand Development. Our priority extends to produce the best-in-class creative subjects which instils a unique identity of a brands among consumers in our society. We believe in nurturing creativity at its optimum with brief yet powerful contents, themes, designs and online marketing strategy for our Clients at its best.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p style="font-size: 16pt; font-weight: bolder; ">Our Team</p>
+                        <p style="font-size: 12pt;">Meta inhabits highly skilled individuals in our team. We devote the concept of “Dynamism”, which indeed gives us the strength to work with young talents that stimulates out-of box thinking. Our team of qualified professionals are up to date on the changing trends and demand expectations of consumers in the market. Team Odozi Technologies aspires to meet your brand expectations at various levels through continuous brand engagements with the consumers through online medium, by keeping a regular check on new updates without compromising the existing delivery standards. </p>
+
+ 
+                        <p style="font-size: 12pt;">
+                            We prioritise in offering personalized service to our Clients, as a result we have dedicated Relationship Managers for each of our Clients to address any queries related to our services 24×7.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                        <a href="#" target="_blank">
+                            <img src="./images/about-img.jpg" style="width:100%">
+                            <div class="caption">
+                            
+                            </div> 
+                        </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="gallery">
+            
+        <div class="container">
+            <div class="gal-heading">
+                <h4>Gallery</h4>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <a href="#" target="_blank">
+                    <img src="./images/g1.jpg" style="width:100%">
+                    <div class="caption">
+             7       <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <a href="#" target="_blank">
+                    <img src="./images/g2.jpg" style="width:100%">
+                    <div class="caption">
+                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                <a href="#" target="_blank">
+                    <img src="./images/g3.jpg" style="width:100%">
+                    <div class="caption">
+                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+
+            </div>
+           
+
+            <div>
+
+                <button class="seeMore active-cbtn" id="collapse-btn1" data-toggle="collapse" data-target="#gal-colapse">see more...</button>
+                <button class="seeLess" id="collapse-btn1" data-toggle="collapse" data-target="#gal-colapse">see less...</button>
+            </div>
+
+                    <div id="gal-colapse" class="collapse ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <a href="#" target="_blank">
+                                    <img src="./images/g1.jpg" style="width:100%">
+                                    <div class="caption">
+                             7       <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <a href="#" target="_blank">
+                                    <img src="./images/g2.jpg" style="width:100%">
+                                    <div class="caption">
+                                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <a href="#" target="_blank">
+                                    <img src="./images/g3.jpg" style="width:100%">
+                                    <div class="caption">
+                                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                
+                            </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <a href="#" target="_blank">
+                                    <img src="./images/header-2.jpg" style="width:100%">
+                                    <div class="caption">
+                                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <a href="#" target="_blank">
+                                    <img src="./images/g5.jpg" style="width:100%">
+                                    <div class="caption">
+                                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <a href="#" target="_blank">
+                                    <img src="./images/header-2.jpg" style="width:100%">
+                                    <div class="caption">
+                                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            
+                            </div>
+            
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <a href="#" target="_blank">
+                                    <img src="./images/g7.jpg" style="width:100%">
+                                    <div class="caption">
+                                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <a href="#" target="_blank">
+                                    <img src="./images/g8.jpg" style="width:100%">
+                                    <div class="caption">
+                                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                <a href="#" target="_blank">
+                                    <img src="./images/g9.jpg" style="width:100%">
+                                    <div class="caption">
+                                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                            
+                            </div>
+                    </div>
+
+
+
+
+
+                
+        </div>
+    </div>
+
+
+
+
+    <!-- contact-us -->
+
+    <div id="contact-us">
+        <div class="form-div">
+            <form action="#">
+                <h4>Contact Us</h4>
+                <div class="form-body" style="box-shadow: 0px 5px 10px 10px rgba(0,0,0,0);">
+                    <div>
+                        <div class="form-group">
+                            <label for="">Name :</label>
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email Id:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Message :</label>
+                            <textarea name="" id="comment" rows="5" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-default" style="width: 100%;">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+            <div class="footer-content">
+                <div class="address">
+                    <h4>Address</h4>
+                    <address>
+                        North Screet,<br>
+                        Main Road, Marthandam.
+                    </address>
+                </div>
+                <div class="branches">
+                    <h4>Branches</h4>
+                    <address>
+                        Kanniyakumari <br>
+                        Chennai
+                    </address>
+                </div>
+            </div>
+            <footer>
+                <span>Meta &copy; 2022 all rights reserved</span>
+            </footer><br>
+        </div>
+    </div>
+
+
+
+    <script src="./script/app.js"></script>
+</body>
+</html>

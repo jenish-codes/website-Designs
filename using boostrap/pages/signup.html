@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp with Meta</title>
+    <style>
+        *{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(196, 196, 196);
+    border-radius: 5px;
+    box-shadow: 10px 20px 25px rgba(3, 38, 41, 0.726);
+    overflow: hidden;
+    max-width: 100%;
+    width: 400px;
+}
+
+.header {
+    padding: 20px 40px;
+}
+
+.header h2 {
+     margin: 0;
+     margin-top: 20px;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form .form-control{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form .form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form .form-control input:focus{
+    outline: none;
+    border-color: #777;
+}
+
+.form button {
+    background-color: black;
+    border: none;
+    color: wheat;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #333;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Sign Up</h2>
+        </div>
+        <form class="form" id="form">
+        <div class="form-control">
+            <label for="">Username</label>
+            <input type="text" placeholder="Enter Username" id="username">
+        </div>
+        <div class="form-control">
+            <label for="">Email</label>
+            <input type="email" placeholder="Enter Email ID" id="email">
+        </div>
+        <div class="form-control">
+            <label for="">Password</label>
+            <input type="password" placeholder="Enter Password" id="password">
+        </div>
+        <div class="form-control">
+            <label for="">Confirm Password</label>
+            <input type="password" placeholder="Confirm your Password" id="password2">
+        </div>
+        <button>Submit</button>
+    </form>
+    </div>
+</body>
+</html>
